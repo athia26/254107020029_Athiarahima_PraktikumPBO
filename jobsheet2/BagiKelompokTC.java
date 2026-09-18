@@ -10,6 +10,7 @@ public class BagiKelompokTC {
 
         try {
             anggotaPerKelompok = jmlMahasiswa/jmlKelompok;
+            
         } catch (ArithmeticException e) {
             System.out.println("Jumlah kelompok tidak boleh nol");
         }
